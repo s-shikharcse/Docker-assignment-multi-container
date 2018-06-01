@@ -12,19 +12,19 @@ import pickle
 # In[8]:
 
 
-pickle_in = open("exploratory/X_train_file.pkl","rb")
+pickle_in = open("/result/X_train_file.pkl","rb")
 X_train = pickle.load(pickle_in)
 pickle_in.close()
 
-pickle_in = open("exploratory/X_test_file.pkl","rb")
+pickle_in = open("/result/X_test_file.pkl","rb")
 X_test = pickle.load(pickle_in)
 pickle_in.close()
 
-pickle_in = open("exploratory/y_train_file.pkl","rb")
+pickle_in = open("/result/y_train_file.pkl","rb")
 y_train = pickle.load(pickle_in)
 pickle_in.close()
 
-pickle_in = open("exploratory/y_test_file.pkl","rb")
+pickle_in = open("/result/y_test_file.pkl","rb")
 y_test = pickle.load(pickle_in)
 pickle_in.close()
 
