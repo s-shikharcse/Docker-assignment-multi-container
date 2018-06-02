@@ -11,11 +11,11 @@ from datetime import datetime
 # In[40]:
 
 
-pickle_in = open("model_1_score_file.pkl", "rb")
+pickle_in = open("/result/model_1_score_file.pkl", "rb")
 model_1_score = pickle.load(pickle_in)
 pickle_in.close()
 
-pickle_in = open("model_2_score_file.pkl", "rb")
+pickle_in = open("/result/model_2_score_file.pkl", "rb")
 model_2_score = pickle.load(pickle_in)
 pickle_in.close()
 
