@@ -39,7 +39,7 @@ X_test.drop(X_train.columns[[2, 3, 4]], axis=1)
 
 model_2 = linreg.fit(X_train, y_train)
 predict_values_2 = model_2.predict(X_test)
-model_2_score = r2_score(y_test, predict_values_1)
+model_2_score = r2_score(y_test, predict_values_2)
 
 
 # In[34]:
